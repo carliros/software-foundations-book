@@ -629,7 +629,7 @@ Proof. reflexivity. Qed.
 
 #### Exercise: 2 stars (blt\_nat) {.section}
 
-The __blt\_nat__ function tests __nat__ural
+The __blt\_nat__ function tests **nat**ural
 numbers for **l**ess-**t**han, yielding a **b**oolean. Instead of making up a new
 __Fixpoint__ for this one, define it in terms
 of a previously defined function.
