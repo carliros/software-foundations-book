@@ -795,7 +795,7 @@ the above proof and see what difference it makes in Coq's behavior.)
 
 #### Exercise: 1 star (plus\_id\_exercise) {.section}
 
-Remove "__Admitted." and fill in the proof.
+Remove __"Admitted."__ and fill in the proof.
 
 ~~~~
 Theorem plus_id_exercise : ∀n m o : nat,
