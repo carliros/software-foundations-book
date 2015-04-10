@@ -3,8 +3,8 @@ BOOKNAME = Software-Foundation
 TITLE = title.txt
 METADATA = metadata.xml
 
-CHAPTERS = 01-Preface.md 02-Basics.md 03-Induction.md 
-#04-Lists.md 05-Poly.md 06-MoreCoq.md 07-Logic.md 08-Prop.md 09-MoreLogic.md 10-ProofObjects.md 11-MoreInd.md 12-SfLib.md 13-Rel.md 14-Imp.md 15-ImpParser.md 16-ImpCEvalFun.md 17-Extraction.md 18-Equiv.md 19-Hoare.md 20-Hoare2.md 21-HoareAsLogic.md 22-Smallstep.md 23-Auto.md 24-Types.md 25-Stlc.md 26-StlcProp.md 27-MoreStlc.md 28-Sub.md 29-Typechecking.md 30-Records.md 31-References.md 32-RecordSub.md 33-Norm.md 34-LibTactics.md 35-UseTactics.md 36-UseAuto.md 37-PE.md 38-Postscript.md
+CHAPTERS = 01-Preface.md 02-Basics.md 03-Induction.md 04-Lists.md
+#05-Poly.md 06-MoreCoq.md 07-Logic.md 08-Prop.md 09-MoreLogic.md 10-ProofObjects.md 11-MoreInd.md 12-SfLib.md 13-Rel.md 14-Imp.md 15-ImpParser.md 16-ImpCEvalFun.md 17-Extraction.md 18-Equiv.md 19-Hoare.md 20-Hoare2.md 21-HoareAsLogic.md 22-Smallstep.md 23-Auto.md 24-Types.md 25-Stlc.md 26-StlcProp.md 27-MoreStlc.md 28-Sub.md 29-Typechecking.md 30-Records.md 31-References.md 32-RecordSub.md 33-Norm.md 34-LibTactics.md 35-UseTactics.md 36-UseAuto.md 37-PE.md 38-Postscript.md
 
 TOC = --toc --toc-depth=2
 COVER_IMAGE = img/cover.png
