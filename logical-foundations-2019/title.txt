@@ -1,0 +1,2 @@
+% Logical Foundations
+% Benjamin C. Pierce
