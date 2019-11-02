@@ -153,7 +153,7 @@ Inductive natlist1 : Type :=
   | nsnoc1 (l : natlist1) (n : nat).
 ````
 
-Now what will the induction principle look like? 
+Now what will the induction principle look like?
 
 ``
 
@@ -452,7 +452,7 @@ induction, and state the theorem and proof in terms of this
 defined proposition.
 
 ````coq
-(* FILL IN HERE 
+(* FILL IN HERE
 
     [] *)
 ````
@@ -555,7 +555,8 @@ In English, `ev_ind` says:
 As expected, we can apply `ev_ind` directly instead of using
 `induction`.  For example, we can use it to show that `even'` (the
 slightly awkward alternate definition of evenness that we saw in
-an exercise in the \chap{IndProp} chapter) is equivalent to the
+an exercise in the *IndProp: Inductively Defined Propositions*
+chapter) is equivalent to the
 cleaner inductive definition `even`:
 
 ````coq
@@ -758,4 +759,3 @@ _Example_
 ````coq
 (* Wed Jan 9 12:02:46 EST 2019 *)
 ````
-

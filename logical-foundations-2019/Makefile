@@ -38,9 +38,9 @@ $(BUILD)/html/$(BOOKNAME).html: $(addprefix genmd/, $(CHAPTERS))
 	mkdir -p $(BUILD)/html
 	pandoc $(TOC) --metadata pagetitle="Logical Foundations" --standalone --to=html5 -o $@ $^
 
-$(BUILD)/pdf/$(BOOKNAME).pdf: $(TITLE) $(addprefix en/, $(CHAPTERS))
+$(BUILD)/pdf/$(BOOKNAME).pdf: $(TITLE) $(addprefix genmd/, $(CHAPTERS))
 	mkdir -p $(BUILD)/pdf
-	pandoc $(TOC) --latex-engine=xelatex -V documentclass=$(LATEX_CLASS) -o $@ $^
+	pandoc $(TOC) --pdf-engine=xelatex -V documentclass=$(LATEX_CLASS) -o $@ $^
 
 $(BOOKNAME).mobi: $(BUILD)/epub/$(BOOKNAME).epub
 	mkdir -p $(BUILD)/mobi
