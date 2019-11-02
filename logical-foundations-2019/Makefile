@@ -30,9 +30,9 @@ v2md: $(addprefix genmd/, $(CHAPTERS))
 genmd/%.md: dotv/%.v
 	v2md -o $@ $<
 
-$(BUILD)/epub/$(BOOKNAME).epub: $(TITLE) $(addprefix en/, $(CHAPTERS))
+$(BUILD)/epub/$(BOOKNAME).epub: $(TITLE) $(addprefix genmd/, $(CHAPTERS))
 	mkdir -p $(BUILD)/epub
-	pandoc $(TOC) -S --epub-metadata=$(METADATA) --epub-cover-image=$(COVER_IMAGE) -o $@ $^
+	pandoc $(TOC) -f markdown+smart --epub-metadata=$(METADATA) --epub-cover-image=$(COVER_IMAGE) -o $@ $^
 
 $(BUILD)/html/$(BOOKNAME).html: $(addprefix genmd/, $(CHAPTERS))
 	mkdir -p $(BUILD)/html
