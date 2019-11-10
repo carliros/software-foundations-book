@@ -79,7 +79,7 @@ Inductive day : Type :=
 ````
 
 The type is called `day`, and its members are `monday`,
-`tuesday`, etc. 
+`tuesday`, etc.
 
 Having defined `day`, we can write functions that operate on
 days.
@@ -192,8 +192,8 @@ that your file is well formatted before handing it in.  In a
 terminal window either type `make BasicsTest.vo` or do the
 following:
 
-   coqc -Q . LF Basics.v
-   coqc -Q . LF BasicsTest.v
+    coqc -Q . LF Basics.v
+    coqc -Q . LF BasicsTest.v
 
 There is no need to hand in `BasicsTest.v` itself (or `Preface.v`).
 
@@ -389,7 +389,7 @@ Let's look at this in a little more detail.
 Every inductively defined type (`day`, `bool`, `rgb`, `color`,
 etc.) contains a set of _constructor expressions_ built from
 _constructors_ like `red`, `primary`, `true`, `false`, `monday`,
-etc. 
+etc.
 
 The definitions of `rgb` and `color` say how expressions in the
 sets `rgb` and `color` can be built:
@@ -1075,7 +1075,7 @@ Proof.
   (* FILL IN HERE *) Admitted.
 
   (* (N.b. This proof can actually be completed with tactics other than
-     [rewrite], but please do use [rewrite] for the sake of the exercise.) 
+     [rewrite], but please do use [rewrite] for the sake of the exercise.)
 
     [] *)
 ````
@@ -1418,7 +1418,7 @@ out your solution so that it doesn't cause Coq to reject the whole
 file!)
 
 ````coq
-(* FILL IN HERE 
+(* FILL IN HERE
 
     [] *)
 ````
@@ -1549,4 +1549,3 @@ Definition manual_grade_for_binary : option (nat*string) := None.
 ````coq
 (* Wed Jan 9 12:02:44 EST 2019 *)
 ````
-
